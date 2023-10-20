@@ -16,7 +16,7 @@ object DiscordBot : ListenerAdapter() {
         this.plugin = plugin
     }
 
-    val token = "MTE2NDkwOTM3MzQyNDk0MzIxNg.GeXwvl.WzRfSjHArQk99uEv53Yxehw_mbYDIn2TCXimjQ"
+    val token = ""
     val jda = JDABuilder.createDefault(token).build()
 
     fun onSlashCommand(event: SlashCommandInteractionEvent) {
