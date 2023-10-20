@@ -1,0 +1,4 @@
+name: discordChat
+version: '${version}'
+main: org.example1.discordchat.DiscordChat
+api-version: '1.20'
